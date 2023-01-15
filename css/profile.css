@@ -1,0 +1,86 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background-color: black;
+}
+
+.whoiswatching{
+  background-color: #333;
+  width: 50%;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  padding: 120px 60px 0 60px;
+}
+
+.maindiv{
+  margin-bottom: 10px;
+}
+
+.maindiv h1{
+  color: white;
+  font-weight: 400;
+  text-align: center;
+}
+
+.profilecard img{
+  width: 120px;
+}
+
+.profilecard img:hover{
+border: 1px solid white;
+cursor: pointer;
+}
+
+.profilecard{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn{
+  text-align: center;
+  margin-top: 30px;
+}
+
+.btn button{
+  padding: 5px 10px;
+  background-color: #333;
+  outline: none;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+.btn button:hover{
+  cursor: pointer;
+}
+
+@media screen and (max-width:650px){
+  
+  .whoiswatching{
+    width: 60%;
+    height: 250px;
+    padding: 100px 60px 0 60px;
+  }
+  
+  .maindiv{
+    margin-bottom: 20px;
+  }
+  
+  .maindiv h1{
+    font-size: 1.5rem;
+  }
+  
+  .profilecard img{
+    width: 50px;
+  }
+  
+  .btn button{
+    padding: 2px 5px;
+    border-radius: 2px;
+  }
+}

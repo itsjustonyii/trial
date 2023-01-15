@@ -1,0 +1,138 @@
+*{
+padding: 0;
+margin: 0;
+font-family: sans-serif;
+}
+
+.logo img{
+  height: 45px;
+  width: 167px;
+  }
+  
+  .header .logo{ 
+    padding: 20px 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000000;
+  }
+
+  .banner{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .banner::before{
+    content: "";
+    position: absolute;
+    background: rgba(0, 0, 0, .7);
+    width: 100%;
+    height: 100%;
+  }
+
+  .banner .fit{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+  }
+
+  .loginbody{
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 250px;
+    height: 420px;
+    background: rgba(0, 0, 0, 0.75);
+    padding: 25px 40px;
+    border-radius: 10px;
+  }
+
+  .loginbody h2{
+    font-size: 32px;
+    color: white;
+    margin-top: 0;
+  }
+
+  .loginbody input{
+    height: 40px;
+    width: 100%;
+    color: white;
+    border-radius: 3px;
+    background-color: #333;
+    border: 1px solid #333;
+    box-sizing: border-box;
+    outline: none;
+  }
+
+  .inputwrap{
+    margin-bottom: 25px;
+    margin-top: 30px;
+  }
+
+  .inputwrap a{
+    color: white;
+    border-radius: 3px;
+    background-color: #e50914;
+    border: 1px solid #e50914;
+    outline: none;
+    text-decoration: none;
+    padding: 10px 99px;
+  }
+
+  .support{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    font-size: 12px;
+  }
+
+.support input{
+  width: 15px;
+  height: 15px;
+}
+
+  .remember{
+    display: flex;
+    align-items: center;
+  }
+
+  .remember span{
+    margin-right: 10px;
+    height: 25px;
+  }
+
+  .loginbody .loginfooter span a{
+    color: #737373;
+    font-size: 13px; 
+    text-decoration: none;
+  }
+
+  .signup{
+    color: #737373;
+    font-size: 16px;
+  }
+
+  .signup a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+  }
+
+  .terms{
+    color: #737373;
+    font-size: 13px;
+  }
+
+  .terms a{
+    text-decoration: none;
+    color: #0071eb;
+  }
